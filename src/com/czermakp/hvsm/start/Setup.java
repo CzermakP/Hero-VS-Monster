@@ -48,7 +48,8 @@ public class Setup {
 			}else if (monsterInput.equalsIgnoreCase(Demon.TYPE)) {
 				M = new Demon();
 			}
-		}
+		}		
+		input.close();
 		
 		Game G = new Game(H, M);
 		G.beginGame(); 
